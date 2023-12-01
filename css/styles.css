@@ -1,0 +1,130 @@
+
+body{
+    background-color:  rgb(187, 150, 222);
+     background-image: url('../image/vector-calendar-pattern-seamless-background-600nw-2172513489.webp');
+     background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    margin: 0;
+    padding: 0;
+    font-size: 'poppins', sans-serif;
+    box-sizing: border-box;
+}  
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.topic{
+    text-align: center;
+    color: #fff;
+}
+ 
+.hidden {
+    display:none;
+} 
+
+header { 
+    background: linear-gradient(to bottom, rgb(22, 21, 54), rgb(8, 6, 45), rgb(23, 22, 49));
+    padding: 10px;
+    box-shadow: 3px 3px 50px rgb(0, 0, 0);
+}
+
+
+
+
+
+ .app{
+    width: 100%;
+    max-width: 550px;
+    background: linear-gradient(to bottom,rgb(53, 53, 121),rgb(81, 81, 153),rgb(146, 94, 195) );
+    box-shadow: 10px 10px 40px rgb(32, 15, 46);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    position: relative;
+    
+ }
+ 
+    
+ .app  {
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 690px 0 rgb(151, 92, 210) inset;
+    transition: box-shadow .4s ease;
+   
+    
+}
+
+.app:hover{
+    box-shadow: 0 0px 0 rgb(17, 16, 50) inset;
+    color: #fff;
+    text-size-adjust: 100%;
+}
+    
+
+ .app h2{
+    color: rgb(8, 8, 44);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+} 
+
+
+
+ .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #cecece;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+} 
+
+ input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}  
+
+ button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: rgb(17, 16, 50);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+} 
+button:hover{
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 540px 0 rgb(183, 139, 246)inset;
+    transition: box-shadow .2s ease;
+    color: #000000;
+    
+}
+ ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+} 
+
+  #Task1[type="checkbox"]:checked + span::after{
+    content: '\2713';
+} 
+
+footer{
+    background: linear-gradient(to bottom, rgb(22, 21, 54), rgb(8, 6, 45), rgb(23, 22, 49));
+    padding: 10px;
+    box-shadow: 3px 3px 50px rgb(0, 0, 0);
+}
+
